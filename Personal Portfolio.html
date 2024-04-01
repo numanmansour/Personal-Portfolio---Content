@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        table, th, td {
+             border: 1px solid black;
+             border-collapse: collapse;
+      }
+      </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Numan's Portfolio </title>
@@ -9,11 +15,11 @@
       <h1>NUMAN MANSOUR</h1>
 
       <img src="./Images/Cat.jpg" alt="numan photo"> <br>
-      <img src="./Images/github.png">
+      <img src="./Images/github.png"  alt="github icon">
       <a href="www.mygithub.com">my github</a>
-      <img src="./Images/linkedin-icon.png">
+      <img src="./Images/linkedin-icon.png" alt="linkedin-icon">
       <a href="www.linkedin.com">my linkedin</a>
-      <img src="./Images/outlook.jpg">
+      <img src="./Images/outlook.jpg" alt="gmail-icon">
       <a href="www.gmail.com">my gmail</a>
 
     <h2>Technologies</h2>
@@ -51,25 +57,25 @@
               </tr>
             </tbody>
            </table>
-    <h2>Social Snacks</h2>
-    <img src="./Images/snake.jpg" width="100px" height="100px">
-    <p>Social media App made in Python- <a href="www.google.com">code</a>  |  <a href="www.google.com">deployed</a></p>
+        <h2>Social Snacks</h2>
+        <img src="./Images/snake.jpg" style="width:100px; height:100px" alt="snake icon">
+        <p>Social media App made in Python- <a href="www.google.com">code</a>  |  <a href="www.google.com">deployed</a></p>
         
-    <h2>Contact Me</h2>
-    <form">
-        <div>
-            <label>Name: </label>
-            <input type="text" name="name" 
-            placeholder="Your name..." >
-            <label>Email: </label>
-            <input type="text" name="email" 
-            placeholder="Your email..." >
-        </div>
+        <h2>Contact Me</h2>
+        <form>
+             <div>
+                <label>Name: </label>
+                <input type="text" name="name" 
+                placeholder="Your name..." >
+                <label>Email: </label>
+                <input type="text" name="email" 
+                placeholder="Your email..." >
+            </div>
         
-            <label>Messages: </label>
+            <label style="vertical-align: top;">Messages: </label>
             <textarea name="comment" cols="20" rows="3"></textarea>
         
             <input type="submit" value="Send Message" >  
-    </form>
+        </form>
 </body>
 </html>
